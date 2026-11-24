@@ -87,3 +87,11 @@ docs/                     文档
 - `demo/` 与 `home/` 中的图片和视频由本项目用 GPT Image 与 Seedance 生成，随项目以 MIT 许可提供。`demo/src.jpg` 是示例商品照片。
 - `demo/music.mp3`：*Parler à l'Invisible (Ambient Piano Requiem)*，作者 Adele Vivari，来自 [Jamendo](https://www.jamendo.com/track/2325550)，采用 [CC BY-SA 3.0](https://creativecommons.org/licenses/by-sa/3.0/) 授权，不适用 MIT。
 - 使用者需自行遵守 OpenAI 与小云雀的服务条款，并对生成内容负责。
+
+## 开发协作与致谢 / Built with GPT and Codex
+
+BAUHAUS AI 由项目维护者与 GPT 协作完成，并使用 [OpenAI Codex](https://openai.com/codex/) 开发。GPT 参与产品构思、短片工作流和提示词设计，Codex 协助把这些想法落实为代码。
+
+**特别感谢 GPT 和 Codex**，陪我把「一张衣服照片能不能拍成一支短片」这个想法，一步步做成了一个可运行、可分享的开源项目。
+
+> BAUHAUS AI was developed in collaboration with GPT and built using OpenAI Codex. Special thanks to GPT for helping shape the creative workflow and to Codex for helping turn it into working software.
