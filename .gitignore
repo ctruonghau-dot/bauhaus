@@ -1,0 +1,12 @@
+# secrets — never commit
+keys.json
+keys.json.tmp
+
+# outputs
+作品/
+*.log
+
+# system
+.DS_Store
+__pycache__/
+*.pyc

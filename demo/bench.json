@@ -1,0 +1,319 @@
+{
+ "analysis": {
+  "category": "短款皮草感外套",
+  "summary": "灰米色绒毛从宽翻领一路垂到短衣摆，敞开的前襟里露出一点<em>珍珠微光</em>。",
+  "colors": [
+   {
+    "name": "浅灰米色",
+    "hex": "#C5BFAF"
+   },
+   {
+    "name": "深灰褐色",
+    "hex": "#83796B"
+   },
+   {
+    "name": "珍珠米白",
+    "hex": "#DDD6C8"
+   }
+  ],
+  "material": {
+   "guess": "仿皮草感绒面，内侧似有缎光里布",
+   "confidence": 0.74,
+   "cues": "表面可见细密毛束，衣身绒毛多向下伏，袖端灰褐色更浓；前襟内侧平滑，褶皱处有柔和反光。"
+  },
+  "silhouette": "宽翻领、长袖，衣身略宽松，呈短箱形；悬挂时下摆明显高于袖端。",
+  "details": [
+   {
+    "label": "领子",
+    "desc": "宽绒面翻领向两侧铺开，外缘厚实，领尖略圆。",
+    "x": 0.39,
+    "y": 0.36
+   },
+   {
+    "label": "袖口",
+    "desc": "两侧袖端各有一段更深的灰褐色绒面。",
+    "x": 0.25,
+    "y": 0.77
+   },
+   {
+    "label": "门襟",
+    "desc": "前襟自然敞开，两侧是绒边，正面未见明显扣件。",
+    "x": 0.52,
+    "y": 0.6
+   },
+   {
+    "label": "里布",
+    "desc": "领下露出平滑的珍珠米白内面，随褶皱微微反光。",
+    "x": 0.53,
+    "y": 0.35
+   },
+   {
+    "label": "毛向",
+    "desc": "前身绒毛大体向下伏，深浅随毛束交错。",
+    "x": 0.46,
+    "y": 0.62
+   }
+  ],
+  "garment_lock": "Short, boxy, pale gray-beige fur-look jacket with long sleeves, a broad fold-over collar, and darker taupe-gray pile at both cuffs. Open front with plush edges and no visible fasteners. Dense, subtly mottled pile lies mostly downward on the body. Smooth, softly lustrous pearl-ivory lining shows inside the opening.",
+  "personality": [
+   "安静",
+   "柔和",
+   "松弛",
+   "微复古"
+  ],
+  "season": "深秋至冬季",
+  "life": "冬日下午出门买面包，推开街角小店的门时，袖口擦过木把手。",
+  "unknowns": [
+   "绒面是真毛还是人造纤维",
+   "面料与里布的具体成分",
+   "实际衣长与上身落点",
+   "闭合方式及是否有口袋"
+  ]
+ },
+ "plan": {
+  "title": "冬日买面包",
+  "title_en": "Winter Bread Errand",
+  "concept": "冬日下午，跟着一个人走进街角面包店，再沿原路走出去。领口在风里被拢了一下，袖端擦过木把手，衣服就在这些没必要停下来看的动作里被看见。五镜各生成五秒，首镜剪至四秒，片尾字叠在末镜留白处，全片约二十四秒。",
+  "mood": [
+   "安静",
+   "松弛",
+   "微暖"
+  ],
+  "model_look": "A woman in her early thirties with a chin-length dark brown bob, an oatmeal ribbed crewneck, charcoal straight-leg trousers, and worn dark brown leather flats.",
+  "scene": "冬日下午，一家开在安静街角、临街有木框玻璃门的面包店。",
+  "light": "室外是冬日阴天漫射光，进店后仍以临街窗的柔光为主，门边暗一档，绒毛与里布只在转动时短暂接到光。",
+  "grade": "低饱和灰米与旧木棕，街景略冷，店内微暖，保留柔和黑位与细颗粒。",
+  "assets": [
+   "S6",
+   "L3",
+   "C4",
+   "M4"
+  ],
+  "copy": [
+   "皮草质感／短款外套",
+   "绒面宽翻领／外缘厚实",
+   "衣身略宽松／呈短箱形",
+   "深灰褐袖端／触感蓬松柔软",
+   "穿着温暖／行走自在"
+  ],
+  "music": {
+   "query_en": "sparse felt piano",
+   "feel": "疏落的弱音钢琴，音与音之间留出脚步、纸袋和木门的原声。"
+  },
+  "shots": [
+   {
+    "beat": "冬日下午",
+    "size": "全景",
+    "camera": "固定",
+    "action": "镜头先看见潮湿的石板和起雾的窗，模特沿窗下走向店门。",
+    "caption": "皮草质感／短款外套",
+    "frame_prompt": "A woman in her early thirties with a chin-length dark brown bob, an oatmeal ribbed crewneck, charcoal straight-leg trousers, and worn dark brown leather flats. In a wide full-body view of a quiet winter street corner, she stands mid-stride near the far right, looking toward the bakery door beyond the window. She wears the exact reference jacket open: a short boxy pale gray-beige fur-look body, broad fold-over collar, long sleeves with darker taupe-gray cuffs, and a glimpse of pearl-ivory lining. Damp paving and a lightly fogged bakery window dominate the foreground. Diffuse overcast afternoon light, clean pale plaster on the left for captions, realistic cinematic film grain, vertical 3:4, no text, no logo, no watermark.",
+    "motion_prompt": "Over five seconds, she walks two unhurried steps along the bakery window, looking toward the entrance. The camera stays fixed and lets the street occupy most of the frame. A dry leaf skitters briefly across the damp paving; the sleeves sway with her arms. Keep the jacket's cut and texture stable, physically realistic, no text."
+   },
+   {
+    "beat": "拢领",
+    "size": "近景",
+    "camera": "缓慢推进",
+    "action": "停在门边等人出来时，她顺手把迎风的一侧翻领往颈边拢了拢。",
+    "caption": "绒面宽翻领／外缘厚实",
+    "frame_prompt": "A woman in her early thirties with a chin-length dark brown bob, an oatmeal ribbed crewneck, charcoal straight-leg trousers, and worn dark brown leather flats. Frame her from chin to chest in three-quarter profile outside the bakery on an overcast winter afternoon, with her fingertips just meeting the edge of the broad collar. She wears the exact reference jacket with its open plush front, short boxy shape, dense downward pale gray-beige pile, long sleeves, darker taupe-gray cuffs, and a narrow glint of pearl-ivory lining. Her attention is on the doorway, not the lens. Leave clean softly blurred gray stone on the right for captions. Realistic cinematic film grain, vertical 3:4, no text, no logo, no watermark.",
+    "motion_prompt": "Over five seconds, she draws one side of the collar closer to her neck with two fingers and lets it settle. The camera pushes in slowly, without reframing onto her face. A few ends of her bob lift in the draft; the pile compresses only where touched. Preserve the jacket's construction and proportions, no text."
+   },
+   {
+    "beat": "接过面包",
+    "size": "中景",
+    "camera": "固定",
+    "action": "她在窗边柜台接过一只装着面包的纸袋。",
+    "caption": "衣身略宽松／呈短箱形",
+    "frame_prompt": "A woman in her early thirties with a chin-length dark brown bob, an oatmeal ribbed crewneck, charcoal straight-leg trousers, and worn dark brown leather flats. A waist-up medium shot inside a modest corner bakery on a winter afternoon. She stands to the right of frame looking down at a plain brown bread bag resting at the counter edge, her open palm just below its base. She wears the exact reference jacket: short and boxy, softly mottled pale gray-beige downward pile, broad collar, open plush edges without visible fasteners, long sleeves ending in darker taupe-gray pile, and pearl-ivory lining. Diffuse storefront light crosses the wood counter. Leave quiet plaster on the left for captions. Realistic cinematic film grain, vertical 3:4, no text, no logo, no watermark.",
+    "motion_prompt": "Over five seconds, she takes the bread bag as a clerk's hand slides it to the edge of the counter. Keep the camera fixed at counter height. The paper creases under the loaf's weight, and a faint street reflection drifts across the window. The jacket follows her small reach without stretching or changing shape, no text."
+   },
+   {
+    "beat": "袖端擦过木门",
+    "size": "特写",
+    "camera": "缓慢横移",
+    "action": "她按着木把手推门出去，深灰褐色的袖端擦过把手外缘。",
+    "caption": "深灰褐袖端／触感蓬松柔软",
+    "frame_prompt": "A woman in her early thirties with a chin-length dark brown bob, an oatmeal ribbed crewneck, charcoal straight-leg trousers, and worn dark brown leather flats. In a close detail at the bakery threshold, only her hand, sleeve and a sliver of torso enter the frame. Her palm rests on the wooden pull of the closed glass door, the darker taupe-gray cuff just brushing its outer edge. The exact reference jacket has dense pale gray-beige pile lying mostly downward and an open plush edge revealing softly lustrous pearl-ivory lining. Winter daylight grazes the cuff from outside. Leave a clean softly defocused section of door glass on the right for captions. Realistic cinematic film grain, vertical 3:4, no text, no logo, no watermark.",
+    "motion_prompt": "Over five seconds, she pushes the door outward in one easy movement while the camera slides gently sideways with her wrist. The cuff fibers flatten briefly against the wood and spring back as they clear it. A narrow reflection travels across the turning glass. Keep the garment's cut and sleeve length unchanged, no text."
+   },
+   {
+    "beat": "沿原路回去",
+    "size": "远景",
+    "camera": "固定",
+    "action": "她提着纸袋沿街走远，背影渐渐缩进灰白的街景。",
+    "caption": "穿着温暖／行走自在",
+    "frame_prompt": "A woman in her early thirties with a chin-length dark brown bob, an oatmeal ribbed crewneck, charcoal straight-leg trousers, and worn dark brown leather flats. A distant rear view on the same quiet winter street, just outside the bakery. She is small in the lower right of the frame, weight on her front foot, a plain brown bread bag at her side. The exact reference jacket is worn open and reads from behind as a short boxy pale gray-beige shape with a broad fold-over collar, long sleeves and darker taupe-gray cuff ends. Overcast afternoon light softens damp paving and bare branches. Leave broad unbroken pale plaster on the left for the endcard. Realistic cinematic film grain, vertical 3:4, no text, no logo, no watermark.",
+    "motion_prompt": "Over five seconds, she walks away at an ordinary pace without turning. The camera holds still. The paper bag makes a small pendulum swing beside her leg, and bare twigs move faintly against the gray sky. Her short jacket keeps its silhouette, with only slight movement at the hem and cuffs, physically realistic, no text."
+   }
+  ],
+  "endcard": {
+   "line": "皮草质感，短款外套",
+   "sub": "宽翻领自然向两侧铺开"
+  },
+  "product_name": "皮草质感／短款外套"
+ },
+ "palette": [
+  "#d6d8da",
+  "#7a6749",
+  "#504027",
+  "#b5afa3",
+  "#968871",
+  "#302210"
+ ],
+ "edit": {
+  "music_index": 0,
+  "music_reason": "选用这首无唱词的氛围钢琴曲，截取音符较疏的一段低位铺底，给脚步、纸袋和木门的原声留出空间。",
+  "clips": [
+   {
+    "shot": 0,
+    "in": 0.28,
+    "out": 4.68,
+    "caption": "皮草质感／短款外套",
+    "zone": "right"
+   },
+   {
+    "shot": 1,
+    "in": 0.42,
+    "out": 4.42,
+    "caption": "绒面宽翻领／外缘厚实",
+    "zone": "top-right"
+   },
+   {
+    "shot": 2,
+    "in": 0.38,
+    "out": 4.48,
+    "caption": "衣身略宽松／呈短箱形",
+    "zone": "top-left"
+   },
+   {
+    "shot": 3,
+    "in": 0.52,
+    "out": 4.22,
+    "caption": "深灰褐袖端／触感蓬松柔软",
+    "zone": "top-right"
+   },
+   {
+    "shot": 4,
+    "in": 0.27,
+    "out": 4.84,
+    "caption": "穿着温暖／行走自在",
+    "zone": "left"
+   }
+  ],
+  "endcard": {
+   "line": "皮草质感，短款外套",
+   "sub": "宽翻领自然向两侧铺开",
+   "dur": 3.4
+  },
+  "grade": {
+   "saturate": 0.9,
+   "contrast": 0.97,
+   "warmth": 0.03
+  },
+  "note": "按原顺序直切，接面包的中景先交代衣身轮廓，把触感留给袖端擦过木门的特写。纸袋与木门声出现时稍压低钢琴，回程多留半拍，再切入片尾。"
+ },
+ "reviews": [
+  [
+   {
+    "pass": true,
+    "score": 8,
+    "issues": [
+     "街面反光略强"
+    ],
+    "caption_zone": "right",
+    "zone_tone": "dark",
+    "note": "人物与外套成立"
+   }
+  ],
+  [
+   {
+    "pass": true,
+    "score": 9,
+    "issues": [],
+    "caption_zone": "top-right",
+    "zone_tone": "dark",
+    "note": "翻领绒面清楚"
+   }
+  ],
+  [
+   {
+    "pass": true,
+    "score": 8,
+    "issues": [
+     "纸袋褶皱偏多"
+    ],
+    "caption_zone": "top-left",
+    "zone_tone": "dark",
+    "note": "衣身轮廓清楚"
+   }
+  ],
+  [
+   {
+    "pass": false,
+    "blocker": "袖端拼色偏浅，与原图不符",
+    "score": 5,
+    "issues": [
+     "袖端拼色偏浅，与原图不符"
+    ],
+    "fix": "demo",
+    "caption_zone": "top-right",
+    "zone_tone": "dark",
+    "note": "袖端需重绘"
+   },
+   {
+    "pass": true,
+    "score": 8,
+    "issues": [],
+    "caption_zone": "top-right",
+    "zone_tone": "dark",
+    "note": "袖端已与原图一致"
+   }
+  ],
+  [
+   {
+    "pass": true,
+    "score": 8,
+    "issues": [],
+    "caption_zone": "left",
+    "zone_tone": "dark",
+    "note": "背影与街景安静"
+   }
+  ]
+ ],
+ "zones": [
+  "right",
+  "top-right",
+  "top-left",
+  "top-right",
+  "left"
+ ],
+ "durations": [
+  5.088005,
+  5.088005,
+  5.088005,
+  5.088005,
+  5.088005
+ ],
+ "track": {
+  "title": "Parler à l'Invisible (Ambient Piano Requiem)",
+  "creator": "Adele Vivari",
+  "url": "demo/music.mp3",
+  "landing": "https://www.jamendo.com/track/2325550",
+  "license": "by-sa",
+  "license_version": "3.0",
+  "duration": 199,
+  "genres": [
+   "neoclassical",
+   "chillwave"
+  ],
+  "tags": [
+   "instrumental",
+   "neutral",
+   "piano",
+   "relaxing",
+   "speed_medium"
+  ],
+  "attribution": "\"Parler à l'Invisible (Ambient Piano Requiem)\" by Adele Vivari is licensed under CC BY-SA 3.0. To view a copy of this license, visit https://creativecommons.org/licenses/by-sa/3.0/."
+ }
+}
