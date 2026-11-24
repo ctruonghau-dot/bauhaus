@@ -24,8 +24,8 @@ BAUHAUS AI 是一个在本机运行的 AI 服装短片导演，全程自动完�
 ## 快速开始
 
 ```bash
-git clone https://github.com/ctruonghau-dot/bauhaus-ai.git
-cd bauhaus-ai
+git clone https://github.com/ctruonghau-dot/bauhaus.git
+cd bauhaus
 python3 server.py
 ```
 
